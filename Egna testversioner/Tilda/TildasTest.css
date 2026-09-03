@@ -1,3 +1,7 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 hgroup {
     display: flex;
     justify-content: center;
@@ -7,14 +11,18 @@ hgroup {
     flex-direction: column;
 }
 
-.test {
+.projectInfo {
     padding: 1em;
     display: flex;
     gap: 3em;
 }
 
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.fullPattern {
+    display: flex;
+}
+
+h2, h3 {
+    margin: 0px;
 }
 
 .writtenPattern {
@@ -28,17 +36,15 @@ body {
     flex: 1;
 }
 
-.sektion {
-    display: flex;
-}
-
-h2 {
-    padding: 1em;
-    margin: 0px;
-}
-
-img {
+.chart img {
+    display: block;
+    margin: 0 auto;
     height: 30em;
-    padding: 50px;
+    padding: 1em;
 }
 
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+}

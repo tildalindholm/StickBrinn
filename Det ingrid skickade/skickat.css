@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 2em;
+}
+h1 {
+  color: #333;
+}
+.patternSection {
+  /* patternSection class for styling each section */
+  margin-bottom: 10px;
+  display: flex;
+}
+ 
+.TextContentInPatternSection {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.patternSection h2 {
+  color: #555;
+}
+
+textarea {
+  background-color: rgb(246, 246, 152);
+  width: 100%;
+  height: 60px;
+  margin-top: 5px;
+}
+
+.rowOfTextareas {
+  display: flex;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+ 
+hgroup {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  border: 3px;
+  flex-direction: column;
+}
+ 
+.projectInfo {
+  padding: 1em;
+  display: flex;
+  gap: 3em;
+}
+ 
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.writtenPattern {
+  flex: 1;
+  min-height: 700px;
+}
+ 
+.sektion {
+  display: flex;
+}
+
+.verticalLine {
+  width: 1px;
+  background-color: black;
+  align-self: stretch;
+}
+
+.chart {
+  flex: 1;
+  padding: 0px 1em;
+}
+
+h2, h3 {
+  padding: 0em;
+  margin: 0px;
+}
+
+.chart img {
+    display: block;
+    margin: 0 auto;
+    height: 30em;
+    padding: 1em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    padding: 1em;
+}
+
+.color {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 8px ;
+  padding: 8px;
+}
+
+.colorItem {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  width: 140px;
+}
+.box {
+  width: 16px;
+  height: 16px;
+  border: 1px solid black;
+  display: inline-block;
+}
+
+.whiteBox {
+  background-color: white;
+}
+
+.blackBox {
+  background-color: black;
+}
+
+.chartNotes h2 {
+  margin: 16px 0px;
+}
+
+.chartNoteTextArea {
+  height: 32px;
+}
