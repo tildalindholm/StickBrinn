@@ -1,0 +1,102 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+h1 {
+  color: #333;
+}
+.patternSection {
+  /* patternSection class for styling each section */
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.TextContentInPatternSection {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.patternSection h2 {
+  color: #555;
+}
+textarea {
+  background-color: rgb(246, 246, 152);
+  width: 100%;
+  height: 60px;
+  margin-top: 5px;
+}
+.rowOfTextareas {
+  display: flex;
+  gap: 1em;
+  padding-bottom: 1em;
+}
+
+hgroup {
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+  border: 3px;
+  flex-direction: column;
+  
+}
+.InfoWithImage {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 1em;
+}
+
+.test {
+  padding: 1em;
+  display: flex;
+  gap: 3em;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.writtenPattern {
+  flex: 1;
+  height: 700px;
+}
+
+.chart {
+  background-color: rgb(218, 179, 255);
+  flex: 1;
+}
+
+.sektion {
+  display: flex;
+}
+
+h2 {
+  padding: 0em;
+  margin: 0px;
+}
+
+.chartGrid {
+  
+  display: grid;
+  grid-template-columns: repeat(10, 30px);
+  grid-auto-rows: 30px;
+  padding: 3em;
+}
+.cell {
+  border: 1px solid #020202;
+  display: flex;
+}
+.cell.dot::after {
+  content: "";
+  display: block;
+  width: 14px;
+  height: 14px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 8px auto;
+}
