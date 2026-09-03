@@ -43,6 +43,12 @@ hgroup {
   flex-direction: column;
 }
  
+.icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 1em;
+}
+
 .projectInfo {
   padding: 1em;
   display: flex;
