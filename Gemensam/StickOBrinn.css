@@ -135,7 +135,7 @@ nav {
   height: 32px;
 }
 
-.chartContainer {
+.chartContainer { /* Position bildcontainer */
   position: relative;
   display: inline-block;
   margin: 0 auto;
@@ -143,16 +143,20 @@ nav {
   transform: translateX(-50%);
 }
 
-.chartContainer img {
+.chartContainer img { /* Position bild */
   display: block;
   height: 30em;
   padding: 1em;
 }
 
-#rowMarker {
+#rowMarker { /* Grön ruta */
   position: absolute;
-  left: 1em;
-  width: calc(100% - 2em);
+  bottom: 78px;
+  left: 42px;
+  width: 558px;
   height: 20px;
-  background-color: rgba(76, 175, 80, 0.35);;
+  background-color: rgba(21, 25, 253, 0.35);
+  box-sizing: border-box;
+  pointer-events: none;
+  transition: bottom 0.2s ease-in-out;
 }
