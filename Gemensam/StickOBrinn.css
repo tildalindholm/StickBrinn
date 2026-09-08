@@ -2,11 +2,9 @@ body {
   font-family: Arial, sans-serif;
   margin: 2em;
 }
-
 h1 {
   color: #333;
 }
-
 .patternSection {
   /* patternSection class for styling each section */
   margin-bottom: 10px;
@@ -43,12 +41,16 @@ textarea {
 hgroup {
   display: flex;
   justify-content: center;
-  height: 200px;
+  height: 150px;
   align-items: center;
-  border: 3px;
   flex-direction: column;
+
 }
- 
+
+hgroup, h1 {
+  margin: 0px 0px 16px 0px;
+}
+
 .icon {
   width: 16px;
   height: 16px;
@@ -67,7 +69,6 @@ body {
  
 .writtenPattern {
   flex: 1;
-  /* flex står för flexibilitet och 1 betyder att den tar upp lika mycket utrymme som andra flex-element */
   min-height: 700px;
   padding: 0px 16px;
 }
@@ -78,13 +79,18 @@ body {
 
 .verticalLine {
   width: 1px;
-  background-color: black;
+  background-color: rgb(145, 145, 145);
   align-self: stretch;
 }
 
 .chart {
   flex: 1;
   padding: 0px 1em;
+}
+
+h3 {
+  color: #333;
+  margin: 8px 0px;
 }
 
 .chart img {
@@ -136,6 +142,10 @@ h2 {
 
 .chartNoteTextArea {
   height: 32px;
+}
+
+.chartNoteText {
+  padding: 0px 0px 16px 0px;
 }
 
 .chartContainer { /* Position bildcontainer */
