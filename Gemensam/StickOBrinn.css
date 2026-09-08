@@ -2,9 +2,11 @@ body {
   font-family: Arial, sans-serif;
   margin: 2em;
 }
+
 h1 {
   color: #333;
 }
+
 .patternSection {
   /* patternSection class for styling each section */
   margin-bottom: 10px;
@@ -84,11 +86,6 @@ body {
   padding: 0px 1em;
 }
 
-h2, h3 {
-  padding: 0em;
-  margin: 0px;
-}
-
 .chart img {
     display: block;
     margin: 0 auto;
@@ -100,7 +97,7 @@ nav {
     display: flex;
     justify-content: center;
     gap: 2em;
-    padding: 1em;
+    padding: 0px 1em;
 }
 
 .color {
@@ -133,7 +130,7 @@ nav {
 }
 
 h2 {
-  margin: 16px 0px;
+  margin: 0px 0px 16px 0px;
 }
 
 .chartNoteTextArea {
@@ -164,4 +161,8 @@ h2 {
   box-sizing: border-box;
   pointer-events: none;
   transition: bottom 0.2s ease-in-out;
+}
+
+hr {
+  margin: 16px 0px;
 }
