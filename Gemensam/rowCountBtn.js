@@ -35,3 +35,18 @@ ClickPrevRow.addEventListener("click", function (ökning) {
   updateRowNumber(-1);
 });
 // ovan lägger till event listeners på knapparna. Så man vet när funktionen ska köras
+
+//JS för överstruken text i patternSection när man klickar på checkboxen
+let patternSections = document.getElementsByClassName("patternSection");
+
+for (let section of patternSections) {
+    let checkBox = section.querySelector("input[type='checkbox']");
+    let textInPatternSection = section.querySelector(".TextContentInPatternSection");
+
+    checkBox.addEventListener("click", function() {
+        textInPatternSection.style.textDecoration = checkBox.checked ? "line-through" : "none";
+    });
+}
+
+    
+ 

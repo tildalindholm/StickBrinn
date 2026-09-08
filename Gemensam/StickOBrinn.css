@@ -17,11 +17,15 @@ h1 {
   flex-direction: column;
 }
 
+<<<<<<< HEAD
 p {
   margin: 0px;
 }
 
 .patternSection h2 {
+=======
+.patternSection h3 {
+>>>>>>> fb38227 (h3 mm)
   color: #555;
 }
 

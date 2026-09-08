@@ -5,7 +5,7 @@ const startBottom = 78; //Börjar räkna från 78px (det är rad 1)
 const rowHeight = 19.9; //Ska flyttas 20px uppåt eller neråt
 
 function moveMarker(){ //Funktion för att flytta rutan en rad upp
-    const row = parseInt(currentRow.textContent); //Hämtar siffran som är den nuvarande raden
+    const row = parseInt(currentRow.textContent); //Hämtar siffran som är den nuvarande raden. parseInt konverterar texten till ett heltal
     const newBottom = startBottom + (row - 1) * rowHeight; //Räknar ut den nya positionen
     rowMarker.style.bottom = `${newBottom}px`; //Går in i rowMarker i CSS och ändrar bottom till det nya uträknade pixel-värdet
 }
@@ -18,4 +18,3 @@ observer.observe(currentRowSpan, { //Säger åt bevakaren vilket element den ska
     subtree: true
 });
 
-moveMarker();
