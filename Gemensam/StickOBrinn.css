@@ -17,15 +17,11 @@ h1 {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
 p {
   margin: 0px;
 }
 
 .patternSection h2 {
-=======
-.patternSection h3 {
->>>>>>> fb38227 (h3 mm)
   color: #555;
 }
 
@@ -70,7 +66,7 @@ body {
 .writtenPattern {
   flex: 1;
   min-height: 700px;
-  padding: 0px 16px;
+  margin: 0px 16px;
 }
  
 .sektion {
