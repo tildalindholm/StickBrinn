@@ -66,6 +66,7 @@ body {
 .writtenPattern {
   flex: 1;
   min-height: 700px;
+  padding: 0px 16px;
 }
  
 .sektion {
