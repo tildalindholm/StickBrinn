@@ -2,7 +2,7 @@ const rowMarker = document.getElementById('rowMarker');
 const currentRow = document.getElementById('currentRow');
 
 const startBottom = 78; //Börjar räkna från 78px (det är rad 1)
-const rowHeight = 20; //Ska flyttas 20px uppåt eller neråt
+const rowHeight = 19.9; //Ska flyttas 20px uppåt eller neråt
 
 function moveMarker(){ //Funktion för att flytta rutan en rad upp
     const row = parseInt(currentRow.textContent); //Hämtar siffran som är den nuvarande raden

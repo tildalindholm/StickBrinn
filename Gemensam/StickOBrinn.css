@@ -12,9 +12,13 @@ h1 {
 }
  
 .TextContentInPatternSection {
-  padding: 10px;
+  padding: 0px 0px 0px 16px;
   display: flex;
   flex-direction: column;
+}
+
+p {
+  margin: 0px;
 }
 
 .patternSection h2 {
@@ -127,7 +131,7 @@ nav {
   background-color: black;
 }
 
-.chartNotes h2 {
+h2 {
   margin: 16px 0px;
 }
 
@@ -155,7 +159,7 @@ nav {
   left: 42px;
   width: 558px;
   height: 20px;
-  background-color: rgba(21, 25, 253, 0.35);
+  background-color: rgba(255, 23, 23, 0.5);
   box-sizing: border-box;
   pointer-events: none;
   transition: bottom 0.2s ease-in-out;
