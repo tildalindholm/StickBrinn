@@ -1,14 +1,21 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 2em;
+  font-family:Arial, Helvetica, sans-serif;
+  color: #1d1d1d;
 }
 h1 {
   color: #333;
+  text-transform: uppercase;
+  font-weight: 50;
+  letter-spacing: 7px;
+  font-size: 2.5em;
+  
+  
 }
 .patternSection {
   /* patternSection class for styling each section */
   margin-bottom: 10px;
   display: flex;
+
 }
  
 .TextContentInPatternSection {
@@ -21,9 +28,6 @@ p {
   margin: 0px;
 }
 
-.patternSection h2 {
-  color: #555;
-}
 
 textarea {
   background-color: rgb(246, 246, 152);
@@ -31,25 +35,49 @@ textarea {
   height: 60px;
   margin-top: 5px;
 }
-
+.notesBtn {
+  background-color:#404040;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+  height: 48px;
+}
 .rowOfTextareas {
   display: flex;
   gap: 1em;
   padding-bottom: 1em;
 }
+
  
 hgroup {
   display: flex;
-  justify-content: center;
   height: 150px;
   align-items: center;
+  justify-content: center;
   flex-direction: column;
+}
 
+.imageBtn {
+  background-color:#404040;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
 }
 
 hgroup, h1 {
   margin: 0px 0px 16px 0px;
+
 }
+
+
 
 .icon {
   width: 16px;
@@ -61,10 +89,7 @@ hgroup, h1 {
   padding: 1em;
   display: flex;
   gap: 3em;
-}
- 
-body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  align-items: center;
 }
  
 .writtenPattern {
@@ -87,9 +112,31 @@ body {
   flex: 1;
   padding: 0px 1em;
 }
+.rowPrevNext {
+  align-items: center; 
+}
+#nextBtn {
+  background-color: #404040;
+  color: white;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+#prevBtn  { 
+  background-color: #f3f3f3;
+  color: #1d1d1d;
+  border: 1px solid rgb(149, 149, 149);
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 8px 24px;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
 
-h3 {
-  color: #333;
+h4 {
   margin: 8px 0px;
 }
 
@@ -138,6 +185,11 @@ nav {
 
 h2 {
   margin: 0px 0px 16px 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;;
+  color: #454545;
+  font-size: 1.2em;
 }
 
 .chartNoteTextArea {
