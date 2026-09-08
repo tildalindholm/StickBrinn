@@ -65,6 +65,7 @@ body {
  
 .writtenPattern {
   flex: 1;
+  /* flex står för flexibilitet och 1 betyder att den tar upp lika mycket utrymme som andra flex-element */
   min-height: 700px;
   padding: 0px 16px;
 }
