@@ -1,7 +1,7 @@
 let ClickNextRow = document.getElementById("nextBtn");
 let ClickPrevRow = document.getElementById("prevBtn");
 let rowNumber = document
-  .getElementsByClassName("row")[0]
+  .getElementsByClassName("rowPrevNext")[0]
   // getElementsByClassName("row")[0] hämtar det första elementet med klassen "row" i dokumentet.
   .getElementsByTagName("span");
 let prevRowSpan = rowNumber[2];
